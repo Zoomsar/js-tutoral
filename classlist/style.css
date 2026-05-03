@@ -1,0 +1,27 @@
+#btn{
+    
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.enabled{
+    background-color: #1c29d6;
+    color: white;
+}
+
+.hovered{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+}
+
+.disabled{
+    background-color: #f80c0c;
+    color: black;
+    cursor: not-allowed;
+}

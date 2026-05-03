@@ -1,0 +1,19 @@
+#myBox{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(122, 243, 85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#myBtn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

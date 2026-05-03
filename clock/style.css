@@ -1,0 +1,21 @@
+body{
+    background-image: url(yrug.webp);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#clonk{
+    font-size: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
